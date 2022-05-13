@@ -1,0 +1,682 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    height: 786px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+
+}
+
+.container,
+.container-map {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 42px;
+}
+
+.top__box-contact {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 54px;
+}
+
+.text {
+    /*Общий стиль для всех параграфов*/
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
+
+.text__top__footer {
+    color: #FFFFFF;
+    margin-top: 32px;
+    margin-bottom: 96px;
+}
+
+.lets__talk__button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #5A98D0;
+    padding: 15px 80px;
+    display: inline-block;
+}
+
+.text__project {
+    width: 75%;
+    margin: 32px auto 64px;
+    color: #222222;
+    opacity: 1;
+    text-align: center;
+}
+
+
+
+.project__item {
+    position: relative;
+    flex-grow: 1;
+}
+
+.project__item__2 {
+    position: relative;
+    margin-right: 32px;
+}
+
+.project__item__3 {
+    position: relative;
+}
+
+.project__text__mini {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+
+.project__text__mini__2 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+
+.project__parent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.project__img {
+    width: 100%;
+
+}
+
+.project__text {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 1;
+    top: 64px;
+    right: 64px;
+}
+
+.project__text__mini {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+
+}
+
+.top__text {
+    width: 425px;
+}
+
+.cards__block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.cards {
+    width: 359px;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__image {
+    align-self: center;
+    margin-bottom: 51px;
+}
+
+.footer {
+    background: #316099;
+    margin-top: 112px;
+}
+
+.footer__button__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__button {
+    align-self: center;
+}
+
+.footer__text {
+    max-width: 495px;
+}
+
+.heding__skills {
+    width: 340px;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-top: 91px;
+}
+
+.horisont {
+    min-width: 100%;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-around;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    /* list-style-type: none; */
+    padding-top: 64px;
+    margin-bottom: 64px;
+}
+
+.footer__copy {
+    padding-bottom: 64px;
+}
+
+.text__footer__copy {
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+.top__info {
+    padding-top: 115px;
+    flex-grow: 1;
+    background-image: url(img/BG-image.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 44%;
+}
+
+.top__heading {
+    /*Параграф h1 на главной*/
+    font-size: 64px;
+    color: #1F3F68;
+    width: 510px;
+    font-weight: 300;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    margin-bottom: 32px;
+}
+
+.button__project {
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px 50px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.heading__contacts {
+    /*Заголовок h2 на странице контакты*/
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    font-size: 44px;
+    line-height: 74px;
+    padding-top: 51px
+}
+
+.photo__choise {
+    padding-top: 64px;
+}
+
+
+.heading__3 {
+    /*Общий стиль для заголовков h3*/
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    color: #000000;
+    /*ОСТАНОВИЛСЯ ЗДЕСЬ*/
+}
+
+.heading__4 {
+    /*Общий стиль для заголовков h4*/
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.heading__card {
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin-bottom: 14px;
+}
+
+.card__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
+}
+
+.contact__small__img {
+    margin-bottom: 56px;
+    margin-top: 140px;
+}
+
+.block-marg {
+    margin-bottom: 40px;
+}
+
+.h-4__contact-info {
+    padding-bottom: 24px;
+    letter-spacing: 0.04em;
+}
+
+.contact__links {
+    padding-bottom: 16px;
+}
+
+.phone__list {
+    list-style-image: url(img/phone-icon.svg);
+}
+
+.youtube-icon {
+    list-style-image: url(img/web-icon.svg)
+}
+
+.post-icon {
+    list-style-image: url(img/post-icon.svg)
+}
+
+.input__form {
+    /*Стиль для полей ввода формы input*/
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+    width: 100%;
+    height: 72px;
+    margin-bottom: 32px;
+    margin-top: 8px;
+    padding-left: 43px;
+    box-sizing: border-box;
+}
+
+.form__message {
+    width: 100%;
+    height: 144px;
+    opacity: 0.4;
+    border: 1px solid #356EAD;
+    border-radius: 10px;
+    padding-top: 21px;
+    padding-left: 36px;
+    box-sizing: border-box;
+}
+
+.form__name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+}
+
+.submit {
+    /*Стиль для кнопки submit*/
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 100%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-top: 72px;
+    box-sizing: border-box;
+}
+
+.contact__us {
+    margin-top: 54px;
+}
+
+
+.contact__text {
+    background-image: url(img/contactBG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.text__contacts {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 49px;
+    max-width: 780px;
+    align-self: center;
+}
+
+.form__contact {
+    margin-top: 57px;
+}
+
+.form__info {
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgb(16 112 177 / 20%);
+    border-radius: 10px;
+    padding: 56px;
+}
+
+.send__heading {
+    padding-bottom: 48px;
+}
+
+.block__display__contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.map {
+    margin-top: 140px;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .top__info {
+        background-position: right 280px;
+    }
+
+    .cards__block {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 127px;
+    }
+
+    .cards {
+        margin-bottom: 32px;
+    }
+
+    .footer {
+        margin-top: 109px;
+    }
+
+    .heding__skills {
+        padding-top: 47px;
+    }
+
+    .text__top__footer {
+        margin-bottom: 64px;
+
+    }
+
+    .lets__talk__button {
+        font-size: 16px;
+        line-height: 26px;
+        padding: 3px 20px;
+    }
+
+    .footer__text {
+        max-width: 336px;
+
+    }
+
+    .footer__info {
+        flex-direction: column;
+    }
+
+    .footer__button__top {
+        padding-left: 125px;
+        padding-right: 125px;
+    }
+
+    .footer__bottom {
+        padding-left: 125px;
+        padding-right: 125px;
+    }
+
+    /*Страница Контакты*/
+
+    .block__display__contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    .text__contacts {
+        max-width: 520px;
+    }
+
+    .top__box-contact {
+        margin: 0;
+    }
+
+    .top__box {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .contact__small__img {
+        margin-top: 0;
+    }
+
+    .map {
+        margin-top: 64px;
+    }
+
+    .footer {
+        margin-top: 64px;
+    }
+}
+
+@media (max-width: 667px) {
+    .header {
+        padding-top: 24px;
+    }
+
+    .top {
+        height: auto;
+        padding-bottom: 41px;
+        box-sizing: border-box;
+    }
+
+    .top__heading {
+        width: 100%;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .top__text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .top__info {
+        padding-top: 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: none;
+    }
+
+    .button__project {
+        font-size: 12px;
+        line-height: 26px;
+        padding: 0 8px;
+    }
+
+    .photo__choise {
+        padding-top: 48px;
+    }
+
+    .heading__3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .cards__block {
+        padding-top: 32px;
+        padding-bottom: 64px;
+    }
+
+    .cards {
+        width: 100%;
+    }
+
+    .text__project {
+        width: 100%;
+    }
+
+    .project__text {
+        font-size: 16px;
+        line-height: 19px;
+        top: 16px;
+        right: 16px;
+    }
+
+    .project__parent {
+        flex-direction: column;
+        margin-top: 16px;
+    }
+
+    .project__text__mini,
+    .project__text__mini__2 {
+        top: 26px;
+        left: 16px;
+    }
+
+    .project__text__mini__2,
+    .project__text__mini {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .project__item__2 {
+        margin: 0;
+        padding-bottom: 16px;
+    }
+
+    .footer__button__top {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .footer {
+        margin-top: 64px;
+    }
+
+    .footer__top {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .footer__bottom {
+        padding-left: 56px;
+        padding-right: 56px;
+    }
+
+    .heding__skills {
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        padding-top: 18px;
+    }
+
+    .text__top__footer {
+        width: 100%;
+        text-align: center;
+    }
+
+    .lets__talk__button {
+        margin-bottom: 41px;
+    }
+
+    .text__footer__copy {
+        text-align: center;
+    }
+
+    /*contacts*/
+
+    .text__contacts {
+        max-width: 341px;
+    }
+
+    .top__box-contact {
+        margin: 0;
+    }
+
+    .contact__small__img {
+        margin-top: 0;
+    }
+
+    .map {
+        margin-top: 32px;
+    }
+
+    .footer {
+        margin-top: 32px;
+    }
+
+    .block-marg {
+        margin-left: 20px;
+    }
+
+}
